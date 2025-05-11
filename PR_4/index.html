@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+    <title>Personal Info Form</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="form-header">
+            <div class="titles">
+                <div class="title-login">Info</div>
+            </div>
+        </div>
+
+        <!-- PERSONAL INFO FORM -->
+        <form id="personalInfoForm" class="login-form" autocomplete="off">
+            <div class="input-box">
+                <input type="text" class="input-field" id="name" required>
+                <label for="name" class="label">Name</label>
+                <i class='bx bx-user icon'></i>
+            </div>
+
+            <div class="input-box">
+                <input type="email" class="input-field" id="email" required>
+                <label for="email" class="label">Email</label>
+                <i class='bx bx-envelope icon'></i>
+            </div>
+
+            <div class="input-box">
+                <input type="number" class="input-field" id="age" required>
+                <label for="age" class="label">Age</label>
+                <i class='bx bx-calendar icon'></i>
+            </div>
+
+            <div class="input-box">
+                <button type="submit" class="btn-submit">Submit <i class='bx bx-check'></i></button>
+            </div>
+        </form>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
